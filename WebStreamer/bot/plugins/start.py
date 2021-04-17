@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 @StreamBot.on_message(filters.command(['start', 'help']))
 async def start(b, m):
-    await m.reply('__Hi, First send me a telegram file then wait some times i can give direct link to your file :)__',
+    await m.reply('__Hi, First send me a telegram file then wait some times i can give direct link to your file :)\n » Powered by @HARP_Tech__',
                   reply_markup=InlineKeyboardMarkup(
                       [
                           [
